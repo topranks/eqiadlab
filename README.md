@@ -1,0 +1,8 @@
+# evpnlab
+
+![eqiadlab topology](https://raw.githubusercontent.com/topranks/eqiadlab/main/diagram.png)
+
+This is a containerlab topology based on my previous [evpnlab](https://github.com/topranks/evpnlab), but with two vMX devices added to simulate core/border routers.
+
+Please follow the instrucitions there for guidance on how to run the lab.  The only additional requirement here is to have a vrnetlab-based vMX container available to docker.  The topology file will look for a docker image called "vrnetlab/vr-vqfx:20.2R1.10", but you can replace with whatever the name of your local vMX container is.  Building the vrnetlab container for vMX is much the same as for the vQFX, only difference is you need the oriringal tgz file from Juniper (not the extracted VM images).
+
