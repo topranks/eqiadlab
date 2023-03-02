@@ -1,4 +1,4 @@
-# evpnlab
+# eqiadlab
 
 ![eqiadlab topology](https://raw.githubusercontent.com/topranks/eqiadlab/main/diagram.png)
 
